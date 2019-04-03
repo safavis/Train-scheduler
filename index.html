@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div class=" row container">
+    <h1 class="header_train">Train Schedules</h1>
+        <div class="table row">
+            <div class="col table_cell_title s3 l3">
+                Train name
+            </div>
+            <div class="col table_cell_title s3 l3">
+                Destination
+            </div>
+            <div class="col table_cell_title s2 l2">
+                    Frequency(min)
+            </div>
+            <div class="col table_cell_title s2 l2">
+                    Arrival time
+                </div>
+                <div class="col table_cell_title s2 l2">
+                        Minutes away
+                    </div>
+                    
+        </div> 
+        <div class="sbm_section row">
+               <h1 class="add_train_header">Add Train</h1>
+               <label for="name">Train Name</label>
+               <input type="text" class="name">
+               <label for="destination">Destination</label>
+               <input type="text" class="destination">
+               <label for="first">First Train Time(HH:mm) military time</label>
+               <input type="text" class="first">
+               <label for="freq">Frequency(min)</label>
+               <input type="text" class="freq">
+               <button class="submit">Submit</button>
+        </div> 
+</div>  
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+ <script src="./assets/JS/app.js"></script>
+<script>
+</script>
+</body>
+</html>
